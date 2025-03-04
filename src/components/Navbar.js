@@ -57,6 +57,7 @@ const Navbar = () => {
                 <StyledLink to="/">Login</StyledLink>
                 <StyledLink to="/register">Register</StyledLink>
                 <StyledLink to="/dashboard">Dashboard</StyledLink>
+                <StyledLink to="/Log">Login2</StyledLink>
             </NavLinks>
             <LogoutButton onClick={handleLogout}>Logout</LogoutButton>
         </NavbarContainer>

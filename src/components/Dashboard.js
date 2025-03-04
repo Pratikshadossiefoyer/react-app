@@ -30,6 +30,7 @@ const Dashboard = () => {
         <div>
             <h2>Dashboard</h2>
             {userData ? <p>Welcome, {userData.email}!</p> : <p>Loading...</p>}
+            <p>This is a Dashboard</p>
         </div>
     );
 };
